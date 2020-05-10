@@ -1,2 +1,2 @@
-# countdown-clock
-Countdown clock, made with CSS, HTML, Javascript. 
+# timer
+Timer, made with CSS, HTML, Javascript. 
