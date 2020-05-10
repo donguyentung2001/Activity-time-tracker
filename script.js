@@ -34,9 +34,14 @@ pause.addEventListener("click", function() {
 })
 reset.addEventListener("click",function() { 
     clearInterval(countdown);
-    tracker.textContent+= "\r\n" + work.value; 
-    tracker.textContent+= " for ";
-    tracker.textContent+= hour.textContent + " hours " + minute.textContent + " minutes " + second.textContent + " seconds";
+    if (!work.value.trim().length) { 
+        tracker.textContent+= hour.textContent + " hours " + minute.textContent + " minutes " + second.textContent + " seconds";
+    }
+    else { 
+        tracker.textContent+= "\r\n" + work.value; 
+        tracker.textContent+= " for ";
+        tracker.textContent+= hour.textContent + " hours " + minute.textContent + " minutes " + second.textContent + " seconds";
+    }
     second.textContent="00"; 
     minute.textContent="00"; 
     hour.textContent="00";
