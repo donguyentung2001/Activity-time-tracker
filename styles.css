@@ -44,3 +44,7 @@ input {
 div { 
     margin: 50px 50px 50px 50px;
 }
+
+#tracker { 
+    margin-top:-40px;
+}
