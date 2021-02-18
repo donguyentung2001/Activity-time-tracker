@@ -1,5 +1,5 @@
-# timer
-Timer, made with CSS, HTML, Javascript. 
+# Activity time tracker
+Acticvity time tracker, made with CSS, HTML, Javascript. 
 
 You can enter the work you are doing, and click "Start" to start the timer. 
 
